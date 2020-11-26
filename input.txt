@@ -1,0 +1,46 @@
+[ 
+
+{ 
+
+"url":"https://asia-east2-jsondoc.cloudfunctions.net/function-1?delay=1000"  //url that get 1000 ms to return 
+
+"isParallel": true, 
+
+"count": "3" 
+
+}, 
+
+{ 
+
+"url":"https://asia-east2-jsondoc.cloudfunctions.net/function-1?delay=10000" //url that get 10000 ms to return 
+
+"isParallel": false, 
+
+"count": "1" 
+
+}, 
+
+{ 
+
+"url":"https://asia-east2-jsondoc.cloudfunctions.net/function-1?delay=2000" //url that get 2000 ms to return 
+
+"isParallel": true, 
+
+"count": "3" 
+
+}, 
+
+{ 
+
+"url":"https://asia-east2-jsondoc.cloudfunctions.net/function-1?delay=1000" //url that get 1000 ms to return 
+
+"isParallel": true, 
+
+"count": "3" 
+
+}, 
+
+]
+
+Expected output is around 14
+ 
